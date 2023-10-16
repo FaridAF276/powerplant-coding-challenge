@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "powerplant-coding-challenge"
+version = "0.1.0"
+description = "A short program that aims to select a list of powerplants to use in order to meet the power demande in the most efficient way."
+authors = ["Farid Afenzouar <farid-f32@msn.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
